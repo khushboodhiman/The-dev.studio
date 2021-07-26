@@ -24,6 +24,7 @@ body {
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    padding: 36px;
 }
 
 .nav-menu {
@@ -35,12 +36,5 @@ body {
 
 .logo {
     justify-content: start;
-}
-
-.nav-menu {
-    justify-content: end;
-}
-
-.fi-rr-menu-burger {
-    font-size: large;
+    align-self: center;
 }
